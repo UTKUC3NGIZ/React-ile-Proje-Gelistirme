@@ -6,9 +6,11 @@ import { Title } from "./Components";
 
 // import Bootstrap from "./Bootstrap";
 
-import "./tailwind.css";
+// import "./tailwind.css";
 
-import Tailwind from "./Tailwind";
+// import Tailwind from "./Tailwind";
+
+import "./style.scss";
 
 function App() {
   return (
@@ -17,7 +19,10 @@ function App() {
       <Title theme="dark">Deneme</Title>
       <Test />
       {/* <Bootstrap /> */}
-      <Tailwind />
+      {/* <Tailwind /> */}
+      <p className="env">
+        <span>test</span>
+      </p>
     </div>
   );
 }
